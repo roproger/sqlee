@@ -1,0 +1,29 @@
+{
+  "name": "sqlee",
+  "version": "0.0.1",
+  "description": "Node.js MySql utility",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "nodemon test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roproger/sqlee.git"
+  },
+  "keywords": [
+    "mysql"
+  ],
+  "author": "RoProger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roproger/sqlee/issues"
+  },
+  "homepage": "https://github.com/roproger/sqlee#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
