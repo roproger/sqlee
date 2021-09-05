@@ -10,6 +10,10 @@
   "scripts": {
     "test": "nodemon test/"
   },
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/roproger/sqlee.git"
